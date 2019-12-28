@@ -1,0 +1,7 @@
+QUERY 1:
+
+select * from EMP where hiredate like '%FEB-81' AND COMM >400;
+
+QUERY 2:
+
+select count(*) from EMP where COMM is NULL OR COMM=0;
